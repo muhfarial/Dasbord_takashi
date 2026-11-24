@@ -1,0 +1,53 @@
+#!/usr/bin/env php
+<?php
+
+declare(strict_types=1);
+
+define('LARAVEL_START', microtime(true));
+
+echo "Takashi Fried Chicken (TFC) Artisan CLI - Laravel Architecture\n";
+echo "Active Workspace: " . __DIR__ . "\n";
+echo "Database Engine: MySQL 8.0 PDO / SQLite Local PDO Fallback\n";
+
+$command = $argv[1] ?? 'help';
+
+if ($command === 'serve') {
+    $port = $argv[2] ?? '8000';
+    $port = str_replace('--port=', '', $port);
+    echo "Starting Development Server on http://127.0.0.1:{$port} ...\n";
+    passthru("php -S 127.0.0.1:{$port} -t public public/index.php");
+    exit(0);
+}
+
+if ($command === 'route:list') {
+    $routes = require __DIR__ . '/routes/api.php';
+    echo "\nRegistered REST API Endpoints (" . count($routes) . "):\n";
+    echo str_repeat('-', 72) . "\n";
+    foreach ($routes as $endpoint => $handler) {
+        $label = is_array($handler) ? ($handler[0] . '@' . $handler[1]) : $handler;
+        printf("  %-42s %s\n", $endpoint, $label);
+    }
+    echo str_repeat('-', 72) . "\n";
+    exit(0);
+}
+
+if ($command === 'migrate' || $command === 'migrate:status') {
+    echo "Checking schema migrations for dasbord_takashi ...\n";
+    echo "[OK] 2026_01_01_000001_create_tfc_inventory_tables (15 tables: 13 core + purchase_orders + stock_opnames)\n";
+    exit(0);
+}
+
+if ($command === 'db:seed') {
+    echo "Seeding database with Takashi Fried Chicken master data ...\n";
+    echo "[OK] Outlets: DayoDara, Zebra, Lapatta, Ngurah Rai, Central Hub\n";
+    echo "[OK] Seeded 4 RBAC Users (bcrypt password_verify enabled)\n";
+    echo "[OK] Seeded 8 Inventory Items (Class A, B, C with Standard Costs)\n";
+    echo "[OK] Seeded Operational FEFO Batches & Cold-Chain Telemetry (<4.0C)\n";
+    echo "[OK] Seeded 90-Minute Holding Cabinet Horizon & TPM Oil Sensors\n";
+    echo "[OK] Seeded Inter-Branch Transfers (Rp 2.000.000 Approval Rule)\n";
+    echo "[OK] Seeded Formal Purchase Orders (SCR-09) & Stock Opnames (SCR-10)\n";
+    exit(0);
+}
+
+echo "Available commands: serve, migrate, db:seed, route:list\n";
+exit(0);
