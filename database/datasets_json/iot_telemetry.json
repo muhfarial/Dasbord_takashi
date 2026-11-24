@@ -1,0 +1,21 @@
+{
+  "tpmSensors": [
+    { "id": "tpm-01", "outlet": "Takashi DayoDara", "station": "Fryer-01 (Nagoya)", "tpm": 14.5, "temp": 172.5, "status": "SAFE", "threshold": 24.0 },
+    { "id": "tpm-02", "outlet": "Takashi DayoDara", "station": "Fryer-02 (Tokyo)", "tpm": 21.8, "temp": 175.0, "status": "WARNING", "threshold": 24.0 },
+    { "id": "tpm-03", "outlet": "Takashi DayoDara", "station": "Fryer-03 (Osaka)", "tpm": 11.2, "temp": 171.0, "status": "SAFE", "threshold": 24.0 },
+    { "id": "tpm-04", "outlet": "Takashi Zebra", "station": "Fryer-01", "tpm": 24.8, "temp": 176.5, "status": "CRITICAL_CHANGE_OIL", "threshold": 24.0 },
+    { "id": "tpm-05", "outlet": "Takashi Lapatta", "station": "Fryer-01", "tpm": 16.0, "temp": 173.0, "status": "SAFE", "threshold": 24.0 },
+    { "id": "tpm-06", "outlet": "Takashi Ngurah Rai", "station": "Fryer-01", "tpm": 18.5, "temp": 174.0, "status": "SAFE", "threshold": 24.0 }
+  ],
+  "chillerTelemetry": [
+    { "sensorId": "CHILL-DYD-01", "outlet": "Takashi DayoDara", "location": "Walk-In Chiller Daging", "temp": 2.2, "targetRange": "0.0°C - 3.5°C", "humidity": 82, "status": "OPTIMAL" },
+    { "sensorId": "FREEZ-DYD-01", "outlet": "Takashi DayoDara", "location": "Deep Freezer Karaage", "temp": -19.4, "targetRange": "-18.0°C - -22.0°C", "humidity": 65, "status": "OPTIMAL" },
+    { "sensorId": "CHILL-HQ-01", "outlet": "Central Processing Hub", "location": "Main Cold Storage RPA", "temp": 1.8, "targetRange": "0.0°C - 3.0°C", "humidity": 88, "status": "OPTIMAL" },
+    { "sensorId": "REEFER-TRK-01", "outlet": "Armada Truk Logistik #1", "location": "Reefer Box Palu Barat", "temp": 2.5, "targetRange": "1.0°C - 4.0°C", "humidity": 79, "status": "IN_TRANSIT_SAFE" }
+  ],
+  "holdingCabinets": [
+    { "id": "hc-01", "batch": "BATCH-HC-301", "item": "Ayam Crispy Original Potong 9", "qty": 18, "station": "Fryer-01 (Nagoya)", "elapsedMin": 38, "maxMin": 90, "status": "FRESH" },
+    { "id": "hc-02", "batch": "BATCH-HC-302", "item": "Spicy Fire Karaage Cut", "qty": 24, "station": "Fryer-02 (Tokyo)", "elapsedMin": 78, "maxMin": 90, "status": "WARNING_75M" },
+    { "id": "hc-03", "batch": "BATCH-HC-303", "item": "Takashi Wings Shoyu Garlic", "qty": 12, "station": "Fryer-03 (Osaka)", "elapsedMin": 14, "maxMin": 90, "status": "FRESH" }
+  ]
+}

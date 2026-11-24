@@ -1,0 +1,80 @@
+[
+  {
+    "id": "klog-01",
+    "timestamp": "2026-11-16 14:15:00",
+    "outlet": "Takashi DayoDara",
+    "staff": "Agus Koki",
+    "item": "Paha Fillet Boneless (Karaage Cut)",
+    "type": "SALES",
+    "qty": 5.0,
+    "unit": "kg",
+    "reason": "REGULAR_USE",
+    "cost": 260000,
+    "note": "Order Bento Karaage Siang (14 porsi)"
+  },
+  {
+    "id": "klog-02",
+    "timestamp": "2026-11-16 13:50:00",
+    "outlet": "Takashi DayoDara",
+    "staff": "Agus Koki",
+    "item": "Ayam Karkas Segar 0.9-1.0kg",
+    "type": "SPOILAGE",
+    "qty": 1.0,
+    "unit": "ekor",
+    "reason": "BURNT_OVERCOOK",
+    "cost": 38500,
+    "note": "Minyak fryer overheating saat pergantian shift"
+  },
+  {
+    "id": "klog-03",
+    "timestamp": "2026-11-16 13:00:00",
+    "outlet": "Takashi DayoDara",
+    "staff": "Chef Danu Prasetyo",
+    "item": "Ayam Karkas Segar 0.9-1.0kg",
+    "type": "SALES",
+    "qty": 15.0,
+    "unit": "ekor",
+    "reason": "REGULAR_USE",
+    "cost": 577500,
+    "note": "Fryer Batch Siang #3 Crispy Original"
+  },
+  {
+    "id": "klog-04",
+    "timestamp": "2026-11-16 11:45:00",
+    "outlet": "Takashi DayoDara",
+    "staff": "Agus Koki",
+    "item": "Ayam Karkas Segar 0.9-1.0kg",
+    "type": "SPOILAGE",
+    "qty": 2.0,
+    "unit": "ekor",
+    "reason": "HOLDING_EXPIRED_90M",
+    "cost": 77000,
+    "note": "Ayam di holding cabinet melewati batas kesegaran 90 menit"
+  },
+  {
+    "id": "klog-05",
+    "timestamp": "2026-11-16 10:30:00",
+    "outlet": "Takashi DayoDara",
+    "staff": "Agus Koki",
+    "item": "Sayap Ayam (Wings)",
+    "type": "SALES",
+    "qty": 8.0,
+    "unit": "kg",
+    "reason": "REGULAR_USE",
+    "cost": 336000,
+    "note": "Order Spicy Wings Party Box"
+  },
+  {
+    "id": "klog-06",
+    "timestamp": "2026-11-16 08:30:00",
+    "outlet": "Takashi DayoDara",
+    "staff": "Agus Koki",
+    "item": "Ayam Karkas Segar 0.9-1.0kg",
+    "type": "SPOILAGE",
+    "qty": 0.5,
+    "unit": "ekor",
+    "reason": "THAWING_LOSS",
+    "cost": 19250,
+    "note": "Susut karkas alami saat proses de-frosting"
+  }
+]

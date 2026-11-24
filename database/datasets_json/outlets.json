@@ -1,0 +1,62 @@
+[
+  {
+    "id": "out-01",
+    "code": "TFC-HQ",
+    "name": "Central Processing Plant & Hub",
+    "type": "CENTRAL_PLANT",
+    "address": "Kawasan Pusat Suplai & Cold Storage",
+    "city": "Palu",
+    "phone": "0451-482110",
+    "manager": "Sarah Wijaya, S.E.",
+    "status": "OPERATIONAL"
+  },
+  {
+    "id": "out-02",
+    "code": "TFC-DYD",
+    "name": "Takashi fried chicken DayoDara",
+    "type": "FAST_FOOD",
+    "address": "Jalan Dayo Dara, Talise Valangguni",
+    "city": "Palu",
+    "hours": "Open · Closes 00:00",
+    "phone": "0451-481230",
+    "manager": "Chef Danu Prasetyo",
+    "status": "OPERATIONAL",
+    "features": ["Kitchen Console", "90m Holding Cabinet", "Direct Receiving"]
+  },
+  {
+    "id": "out-03",
+    "code": "TFC-ZBR",
+    "name": "Takashi fried chicken (Zebra)",
+    "type": "CHICKEN",
+    "address": "Jalan Zebra, Lolu Utara",
+    "city": "Palu",
+    "hours": "Open",
+    "phone": "0451-483440",
+    "manager": "Rian Hidayat",
+    "status": "OPERATIONAL"
+  },
+  {
+    "id": "out-04",
+    "code": "TFC-LPT",
+    "name": "Takashi Fried Chicken (Lapatta)",
+    "type": "RESTAURANT",
+    "address": "Jalan Lapata, Dusun 4",
+    "city": "Palu",
+    "hours": "Open",
+    "phone": "0451-485670",
+    "manager": "Siti Nurhaliza",
+    "status": "OPERATIONAL"
+  },
+  {
+    "id": "out-05",
+    "code": "TFC-NGR",
+    "name": "Takashi Fried Chicken (Ngurah Rai)",
+    "type": "RESTAURANT",
+    "address": "Jalan I Gusti Ngurah Rai, Boyaoge",
+    "city": "Palu",
+    "hours": "Open",
+    "phone": "0451-487890",
+    "manager": "Ahmad Farhan",
+    "status": "OPERATIONAL"
+  }
+]

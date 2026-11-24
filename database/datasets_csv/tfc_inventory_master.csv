@@ -1,0 +1,9 @@
+SKU,Nama_Item,Kategori,Tipe_Penyimpanan,Satuan,Kelas_ABC,Biaya_Standar_Rp,Safety_Stock,Optimal_Stock,Stok_DayoDara,Status
+TFC-RAW-001,Ayam Karkas Segar 0.9-1.0kg (Potong 9),Ayam & Daging Segar,CHILLED,ekor,A,38500,60,250,78,SAFE
+TFC-RAW-002,Paha Fillet Boneless (Karaage Cut),Ayam & Daging Segar,CHILLED,kg,A,52000,40,180,32,WARNING
+TFC-RAW-003,Sayap Ayam (Wings),Ayam & Daging Segar,CHILLED,kg,B,42000,25,100,54,SAFE
+TFC-DRY-001,Tepung Bumbu Crispy Signature 25kg,Bumbu & Tepung,DRY,zak,A,485000,10,45,18,SAFE
+TFC-DRY-002,Japanese Garlic Shoyu Marinade 5L,Bumbu & Tepung,DRY,jerigen,B,215000,6,24,9,SAFE
+TFC-OIL-001,Minyak Padat Deep Frying Shortening 15kg,Minyak Goreng,ROOM_TEMP,karton,A,340000,15,60,12,CRITICAL
+TFC-SAU-001,Saus Mentai Bakar TFC 5L,Saus & Topping,CHILLED,jerigen,B,275000,8,30,14,SAFE
+TFC-PCK-001,Combo Box Packaging Eco-Friendly TFC,Packaging & Kemasan,DRY,pack,C,45000,50,300,160,SAFE

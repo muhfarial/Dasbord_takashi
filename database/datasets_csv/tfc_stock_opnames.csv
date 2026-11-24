@@ -1,0 +1,4 @@
+Opname_Number,Outlet,Item,System_Stock,Physical_Stock,Discrepancy_Qty,Discrepancy_Pct,Discrepancy_Value_Rp,Tolerance_Status,Stock_Adjusted,Audited_By,Audited_At
+OPN-20261118-001,Takashi fried chicken DayoDara,Ayam Karkas Segar 0.9-1.0kg (Potong 9),80,78,-2,-2.50,-77000,NORMAL,TRUE,Chef Danu Prasetyo,2026-11-18 07:30
+OPN-20261117-002,Takashi fried chicken DayoDara,Paha Fillet Boneless (Karaage Cut),33.5,32,-1.5,-4.48,-78000,WARNING_3_5_PCT,TRUE,Chef Danu Prasetyo,2026-11-17 22:15
+OPN-20261116-003,Takashi fried chicken (Zebra),Minyak Padat Deep Frying Shortening 15kg,11,10,-1,-9.09,-340000,AUDIT_ALERT_GT_5_PCT,TRUE,Rian Hidayat,2026-11-16 21:45

@@ -1,0 +1,8 @@
+Nomor_Lot,SKU,Nama_Item,Outlet,Tgl_Produksi,Tgl_Kedaluwarsa,Sisa_Hari,Qty_Awal,Qty_Sisa,Satuan,Suhu_Kedatangan_C,Status_FEFO
+LOT-20261114-042,TFC-RAW-001,Ayam Karkas Segar 0.9-1.0kg,Takashi DayoDara,2026-11-14,2026-11-17,1,50,12,ekor,2.4,EXPIRING_SOON_24H
+LOT-20261115-055,TFC-RAW-001,Ayam Karkas Segar 0.9-1.0kg,Takashi DayoDara,2026-11-15,2026-11-18,2,40,26,ekor,2.1,ACTIVE_FRESH
+LOT-20261116-089,TFC-RAW-001,Ayam Karkas Segar 0.9-1.0kg,Takashi DayoDara,2026-11-16,2026-11-19,3,40,40,ekor,2.2,ACTIVE_FRESH
+LOT-20261113-030,TFC-RAW-002,Paha Fillet Boneless (Karaage Cut),Takashi DayoDara,2026-11-13,2026-11-17,1,30,8,kg,2.8,EXPIRING_SOON_24H
+LOT-20261115-061,TFC-RAW-002,Paha Fillet Boneless (Karaage Cut),Takashi DayoDara,2026-11-15,2026-11-19,3,30,24,kg,2.3,ACTIVE_FRESH
+LOT-20261020-008,TFC-DRY-001,Tepung Bumbu Crispy Signature 25kg,Takashi DayoDara,2026-10-20,2027-01-20,65,25,18,zak,26.5,ACTIVE_SAFE
+LOT-20260910-001,TFC-OIL-001,Minyak Padat Deep Frying 15kg,Takashi DayoDara,2026-09-10,2027-03-10,114,20,12,karton,28.0,ACTIVE_SAFE

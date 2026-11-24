@@ -1,0 +1,5 @@
+PO_Number,Outlet,Supplier,Item,Qty,Unit,Unit_Cost_Rp,Total_Cost_Rp,Expected_Date,Status,Requested_By,Approved_By
+PO-20261118-001,Takashi fried chicken DayoDara,PT Wilmar Nabati Indonesia,Minyak Padat Deep Frying Shortening 15kg,25,karton,340000,8500000,2026-11-20,SUBMITTED,Chef Danu Prasetyo,
+PO-20261117-004,Central Processing Plant & Hub,PT Japfa Comfeed Indonesia Tbk,Ayam Karkas Segar 0.9-1.0kg (Potong 9),150,ekor,38500,5775000,2026-11-19,APPROVED_HQ,Bima Sakti,"Sarah Wijaya, S.E."
+PO-20261116-002,Takashi fried chicken DayoDara,PT Charoen Pokphand Indonesia,Paha Fillet Boneless (Karaage Cut),45,kg,52000,2340000,2026-11-18,ORDERED,Chef Danu Prasetyo,"Sarah Wijaya, S.E."
+PO-20261114-009,Central Processing Plant & Hub,PT Indofood Sukses Makmur (Bogasari),Tepung Bumbu Crispy Signature 25kg,20,zak,485000,9700000,2026-11-16,RECEIVED,Bima Sakti,"Sarah Wijaya, S.E."

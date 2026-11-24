@@ -1,0 +1,5 @@
+Nomor_Transfer,Asal_Outlet,Tujuan_Outlet,Nama_Item,Kuantitas,Satuan,Valuasi_Rp,Approval_HQ_Required,Status,Pemohon,Waktu_Pengajuan,Catatan
+TR-2026-089,Central Processing Plant & Hub,Takashi fried chicken DayoDara,Minyak Padat Deep Frying Shortening 15kg,10,karton,3400000,TRUE,WAITING_HQ_APPROVAL,Chef Danu Prasetyo,2026-11-16 13:40,Tertahan aturan HQ (Nilai >= Rp 2.000.000 butuh persetujuan Owner)
+TR-2026-088,Central Processing Plant & Hub,Takashi fried chicken (Zebra),Paha Fillet Boneless (Karaage Cut),25,kg,1300000,FALSE,IN_TRANSIT,Chef Danu Prasetyo,2026-11-16 11:15,Auto-Approved sistem (< Rp 2.000.000)
+TR-2026-085,Takashi fried chicken DayoDara,Takashi Fried Chicken (Lapatta),Tepung Bumbu Crispy Signature 25kg,2,zak,970000,FALSE,COMPLETED,Rian Hidayat,2026-11-15 16:20,Telah diterima di cabang Lapatta
+TR-2026-082,Central Processing Plant & Hub,Takashi Fried Chicken (Ngurah Rai),Ayam Karkas Segar 0.9-1.0kg,60,ekor,2310000,TRUE,APPROVED,Ahmad Farhan,2026-11-15 09:30,Disetujui oleh Sarah Wijaya (Owner)

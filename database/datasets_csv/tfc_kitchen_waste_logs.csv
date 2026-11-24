@@ -1,0 +1,7 @@
+Log_ID,Waktu,Outlet,Petugas,Nama_Item,Tipe_Log,Kuantitas,Satuan,Penyebab_Waste,Estimasi_Rugi_Rp,Catatan
+klog-01,2026-11-16 14:15,Takashi DayoDara,Agus Koki,Paha Fillet Boneless (Karaage Cut),SALES,5.0,kg,REGULAR_USE,0,Order Bento Karaage Siang (14 porsi)
+klog-02,2026-11-16 13:50,Takashi DayoDara,Agus Koki,Ayam Karkas Segar 0.9-1.0kg,SPOILAGE,1.0,ekor,BURNT_OVERCOOK,38500,Minyak fryer overheating saat pergantian shift
+klog-03,2026-11-16 13:00,Takashi DayoDara,Chef Danu Prasetyo,Ayam Karkas Segar 0.9-1.0kg,SALES,15.0,ekor,REGULAR_USE,0,Fryer Batch Siang #3 Crispy Original
+klog-04,2026-11-16 11:45,Takashi DayoDara,Agus Koki,Ayam Karkas Segar 0.9-1.0kg,SPOILAGE,2.0,ekor,HOLDING_EXPIRED_90M,77000,Ayam di holding cabinet melewati batas kesegaran 90 menit
+klog-05,2026-11-16 10:30,Takashi DayoDara,Agus Koki,Sayap Ayam (Wings),SALES,8.0,kg,REGULAR_USE,0,Order Spicy Wings Party Box
+klog-06,2026-11-16 08:30,Takashi DayoDara,Agus Koki,Ayam Karkas Segar 0.9-1.0kg,SPOILAGE,0.5,ekor,THAWING_LOSS,19250,Susut karkas alami saat proses de-frosting

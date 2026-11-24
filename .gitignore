@@ -1,0 +1,7 @@
+# Development & Backup
+*.original_backup
+extracted_media/
+
+# IDE & OS
+.DS_Store
+Thumbs.db
